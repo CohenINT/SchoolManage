@@ -1,0 +1,42 @@
+﻿@model IEnumerable<SchoolManage.Models.HellosViewModel>
+
+@{
+    Layout = null;
+}
+@using SchoolManage.Models
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GetHellos</title>
+  
+</head>
+<body>
+    <h1>HELLO lIST</h1>
+   @foreach (HellosViewModel hello in Model)
+   {
+       <div>
+           <p>
+               @Html.DisplayFor(modelItem =>hello.English) 
+           </p>
+       </div>
+         <div>
+           <p>
+               @Html.DisplayFor(modelItem =>hello.Hebrew)
+           </p>
+       </div>
+         <div>
+           <p>
+               @Html.DisplayFor(modelItem =>hello.French)
+           </p>
+       </div>
+         <div>
+           <p>
+               @Html.DisplayFor(modelItem =>hello.Arabic)
+           </p>
+       </div>
+   }
+
+</body>
+</html>
+
