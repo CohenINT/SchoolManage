@@ -3,12 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Web;
+using System.Web.Http.Cors;
 using System.Web.Mvc;
 using System.Web.Mvc.Ajax;
 using SchoolManage.Models;
 
+
+//https://stackoverflow.com/questions/18619656/enable-cors-in-web-api-2
+//cors soltion
 namespace SchoolManage.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")] // tune to your needs
+    [RoutePrefix("")]
     public class HomeController : Controller
     {
         public ActionResult Index()
@@ -40,7 +46,7 @@ namespace SchoolManage.Controllers
                 {
 
 #pragma warning disable CS1701 // Assuming assembly reference matches identity
-                    var readTask = result.Content.ReadAsAsync<IList<HellosViewModel>>();
+                    var readTask = result.Content.ReadAsAsync<IList<SchoolManage.Models.HellosViewModel>>();
 #pragma warning restore CS1701 // Assuming assembly reference matches identity
                     readTask.Wait();
                     hellos = readTask.Result;

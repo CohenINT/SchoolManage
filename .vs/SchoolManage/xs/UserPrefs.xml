@@ -1,23 +1,29 @@
 ﻿<Properties StartupConfiguration="{32EC0644-0415-49CC-BC70-EBAA6775B0D6}|">
   <MonoDevelop.Ide.ItemProperties.SchoolManage PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SchoolManage/Controllers/api/BasicController.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="SchoolManage/Controllers/api/BasicController.cs" Line="1" Column="1" />
+      <File FileName="SchoolManage/Controllers/api/HellosController.cs" Line="18" Column="32" />
+      <File FileName="SchoolManage/Controllers/HomeController.cs" Line="58" Column="44" />
+      <File FileName="SchoolManage/Models/HellosViewModel.cs" Line="1" Column="1" />
+      <File FileName="SchoolManage/Global.asax.cs" Line="12" Column="57" />
+      <File FileName="SchoolManage/Web.config" Line="19" Column="90" />
+      <File FileName="SchoolManage/App_Start/WebApiConfig.cs" Line="7" Column="28" />
+      <File FileName="SchoolManage/Views/Web.config" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SchoolManage" expanded="True">
             <Node name="SchoolManage" expanded="True">
+              <Node name="App_Start" expanded="True" />
               <Node name="Controllers" expanded="True">
                 <Node name="api" expanded="True">
-                  <Node name="BasicController.cs" selected="True" />
+                  <Node name="HellosController.cs" selected="True" />
                 </Node>
               </Node>
               <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-              </Node>
+              <Node name="Views" expanded="True" />
+              <Node name="Global.asax" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -27,9 +33,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/admin/source/repos/SchoolManage/SchoolManage/Controllers/HomeController.cs" relfile="SchoolManage/Controllers/HomeController.cs" line="31" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
