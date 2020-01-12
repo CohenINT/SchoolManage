@@ -1,4 +1,5 @@
 ﻿using System.Web.Http;
+using Newtonsoft.Json.Serialization;
 
 namespace SchoolManage
 {
@@ -8,6 +9,11 @@ namespace SchoolManage
         {
             // Web API configuration and services
             config.EnableCors();
+
+
+            var json = GlobalConfiguration.Configuration.Formatters.JsonFormatter;
+            json.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+
 
             // Web API routes
             config.MapHttpAttributeRoutes();

@@ -1,14 +1,10 @@
 ﻿<Properties StartupConfiguration="{32EC0644-0415-49CC-BC70-EBAA6775B0D6}|">
   <MonoDevelop.Ide.ItemProperties.SchoolManage PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="SchoolManage/Controllers/api/HellosController.cs">
     <Files>
-      <File FileName="SchoolManage/Controllers/api/HellosController.cs" Line="18" Column="32" />
-      <File FileName="SchoolManage/Controllers/HomeController.cs" Line="58" Column="44" />
-      <File FileName="SchoolManage/Models/HellosViewModel.cs" Line="1" Column="1" />
-      <File FileName="SchoolManage/Global.asax.cs" Line="12" Column="57" />
-      <File FileName="SchoolManage/Web.config" Line="19" Column="90" />
-      <File FileName="SchoolManage/App_Start/WebApiConfig.cs" Line="7" Column="28" />
-      <File FileName="SchoolManage/Views/Web.config" Line="1" Column="1" />
+      <File FileName="SchoolManage/Controllers/api/ApiModel.cs" Line="5" Column="19" />
+      <File FileName="SchoolManage/Controllers/api/HellosController.cs" Line="65" Column="6" />
+      <File FileName="SchoolManage/Controllers/api/Person.cs" Line="19" Column="72" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -33,7 +29,11 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/admin/source/repos/SchoolManage/SchoolManage/Controllers/api/HellosController.cs" relfile="SchoolManage/Controllers/api/HellosController.cs" line="37" column="1" />
+      <Breakpoint file="/Users/admin/source/repos/SchoolManage/SchoolManage/Controllers/api/HellosController.cs" relfile="SchoolManage/Controllers/api/HellosController.cs" line="39" column="1" />
+      <Breakpoint file="/Users/admin/source/repos/SchoolManage/SchoolManage/Controllers/api/HellosController.cs" relfile="SchoolManage/Controllers/api/HellosController.cs" line="54" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

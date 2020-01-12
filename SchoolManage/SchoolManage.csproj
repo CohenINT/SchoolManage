@@ -409,6 +409,23 @@
     <Reference Include="Microsoft.AspNetCore.Mvc">
       <HintPath>..\packages\Microsoft.AspNetCore.Mvc.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>..\packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>..\packages\Google.Protobuf.3.6.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet">
+      <HintPath>..\packages\SSH.NET.2016.1.0\lib\net40\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\packages\MySql.Data.8.0.18\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\" />
@@ -425,6 +442,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Models\HellosViewModel.cs" />
     <Compile Include="Controllers\api\HellosController.cs" />
+    <Compile Include="Controllers\api\ApiModel.cs" />
+    <Compile Include="Controllers\api\Person.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />

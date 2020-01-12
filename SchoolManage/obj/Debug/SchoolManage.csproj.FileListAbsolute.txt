@@ -209,3 +209,10 @@
 /Users/admin/source/repos/SchoolManage/SchoolManage/obj/Debug/SchoolManage.csproj.CopyComplete
 /Users/admin/source/repos/SchoolManage/SchoolManage/obj/Debug/SchoolManage.dll
 /Users/admin/source/repos/SchoolManage/SchoolManage/obj/Debug/SchoolManage.pdb
+/Users/admin/source/repos/SchoolManage/SchoolManage/bin/BouncyCastle.Crypto.dll
+/Users/admin/source/repos/SchoolManage/SchoolManage/bin/Google.Protobuf.dll
+/Users/admin/source/repos/SchoolManage/SchoolManage/bin/MySql.Data.dll
+/Users/admin/source/repos/SchoolManage/SchoolManage/bin/Renci.SshNet.dll
+/Users/admin/source/repos/SchoolManage/SchoolManage/bin/Google.Protobuf.xml
+/Users/admin/source/repos/SchoolManage/SchoolManage/bin/Renci.SshNet.xml
+/Users/admin/source/repos/SchoolManage/SchoolManage/bin/MySql.Data.xml
